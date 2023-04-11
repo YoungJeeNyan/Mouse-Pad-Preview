@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mouse Pad Previewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 style="font-size:40px" id="header">Mouse Pad Previewer</h1>
+<h2 id="header">Reference at the bottom of the page</h2>
+
+<p id="upload-label">
+<input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;">
+<label for="file" style="cursor: pointer;">Upload Image</label>
+</p>
+
+<div>
+    <img class="image-default" id="image" width="200">
+    <br>
+    <img class="image-default" id="image2" width="200">
+    <br>
+    <img class="image-default" id="image3" width="200">
+    <br>
+    <img class="image-default" id="image4" width="200">
+</div>
+
+<img id="reference-image" src="https://fantechworld.com/wp-content/uploads/2022/09/image-1-974x1024.png" alt="Mouse pad size reference">
+<p id="note">Author's Note : the sizes of the mouse pad is represented by pixels (px) instead of (cm) . Ratio is taken and the pixels are following with size</p>
+
+</body>
+
+<script src="function.js"></script>
+</html>
