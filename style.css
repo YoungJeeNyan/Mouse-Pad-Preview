@@ -1,0 +1,88 @@
+body{
+    font-family: 'Quicksand';
+    margin: 0%;
+}
+
+#header{
+    text-align: center;
+}
+
+#upload-label{
+    text-align: center;
+    color: darkcyan;
+    
+
+    display:grid;
+
+    transition-duration: 0.5s;
+}
+
+
+#upload-label:hover{
+    text-align: center;
+    color: rgb(0, 71, 71);
+
+    display:grid;
+
+    letter-spacing: 2px;
+    transition-duration: 0.5s;
+}
+
+#reference-image{
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width:35%;
+
+    margin-bottom: 5%;
+}
+
+.image-default{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 8%;
+}
+
+#image{
+    border-color: red;
+    border-style: solid;
+
+    width:260px;
+    height:215px;
+}
+
+#image2{
+    border-color: darkgreen;
+    border-style: solid;
+
+    width:350px;
+    height:270px;
+}
+
+#image3{
+    border-color: aqua;
+    border-style: solid;
+
+    width:450px;
+    height:400px;
+}
+
+#image4{
+    border-color: darkblue;
+    border-style: solid;
+
+    width:900px;
+    height:400px;
+}
+
+#note{
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    width:35%;
+}
